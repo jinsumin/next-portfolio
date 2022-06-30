@@ -1,4 +1,4 @@
-export default function About() {
+export default function Skills() {
   return (
     <>
       <section class="text-gray-600 body-font">
