@@ -7,6 +7,7 @@ import Education from "./education";
 import Projects from "./projects";
 import Skills from "./skills";
 import Contacts from "./contacts";
+import Slider from "../components/slider";
 
 export default function Home() {
   return (
