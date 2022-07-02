@@ -9,7 +9,7 @@ import Skills from "./skills";
 import Contacts from "./contacts";
 import { TOKEN, DATABASE_ID } from "../config";
 
-export default function Home({ projects }) {
+export default function Home({ results }) {
   return (
     <Layout>
       <Head>
@@ -22,7 +22,7 @@ export default function Home({ projects }) {
         <About />
         <Skills />
         <Education />
-        <Projects projects={projects} />
+        <Projects results={results} />
         <Contacts />
       </div>
     </Layout>
@@ -49,13 +49,9 @@ export async function getStaticProps() {
   );
 
   const projects = await response.json();
-  const projectNames = projects.results.map(
-    (aProject) => aProject.properties.name.title[0].plain_text
-  );
-
-  console.log(`projectNames : ${projectNames}`);
+  const results = projects.results;
 
   return {
-    props: { projects }, // will be passed to the page component as props
+    props: { results }, // will be passed to the page component as props
   };
 }
