@@ -9,7 +9,7 @@ export default function Main() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               안녕하세요! 진수민의
               <br className="hidden lg:inline-block" />
-              포트폴리오 사이트입니다.
+              포트폴리오 페이지입니다.
             </h1>
             <p className="mb-8 leading-relaxed">
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra

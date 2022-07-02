@@ -12,30 +12,30 @@ export default function ProjectItems({ data }) {
   // const start = data.properties.period.date.start;
   // const end = data.properties.period.date.end;
 
-  const calculatePeriod = (start, end) => {
-    const startDateStringArray = start.split("-");
-    const endDateStringArray = end.split("-");
+//   const calculatePeriod = (start, end) => {
+//     const startDateStringArray = start.split("-");
+//     const endDateStringArray = end.split("-");
 
-    let startDate = new Date(
-      startDateStringArray[0],
-      startDateStringArray[1],
-      startDateStringArray[2]
-    );
-    let endDate = new Date(
-      endDateStringArray[0],
-      endDateStringArray[1],
-      endDateStringArray[2]
-    );
+//     let startDate = new Date(
+//       startDateStringArray[0],
+//       startDateStringArray[1],
+//       startDateStringArray[2]
+//     );
+//     let endDate = new Date(
+//       endDateStringArray[0],
+//       endDateStringArray[1],
+//       endDateStringArray[2]
+//     );
 
-    console.log(`startDate : ${startDate}`);
-    console.log(`endDate : ${endDate}`);
+//     console.log(`startDate : ${startDate}`);
+//     console.log(`endDate : ${endDate}`);
 
-    const diffInMs = Math.abs(endDate - startDate);
-    const result = diffInMs / (1000 * 60 * 60 * 24);
+//     const diffInMs = Math.abs(endDate - startDate);
+//     const result = diffInMs / (1000 * 60 * 60 * 24);
 
-    console.log(`기간 : ${result}`);
-    return result;
-  };
+//     console.log(`기간 : ${result}`);
+//     return result;
+//   };
 
   return (
     <div className="project-card">
