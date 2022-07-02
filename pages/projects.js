@@ -1,9 +1,6 @@
 import ProjectItems from "../components/projects/project-items";
 
 export default function Projects({ projects }) {
-  console.log(projects);
-  console.log("test in Projects.js");
-
   return (
     <>
       <section className="text-gray-600 body-font overflow-hidden">
