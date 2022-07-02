@@ -6,7 +6,7 @@ export default function ProjectItems({ data }) {
   // const youtube = data.properties.youtube.url;
   // const description = data.properties.desc.rich_text[0].plain_text;
   // const imgSrc = data.cover.file?.url || data.cover.external.url;
-  const tags = data.properties.tag.multi_select;
+  // const tags = data.properties.tag.multi_select;
   // const start = data.properties.period.date.start;
   // const end = data.properties.period.date.end;
 
