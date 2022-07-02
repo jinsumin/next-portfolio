@@ -3,6 +3,9 @@ import ProjectItems from "../components/projects/project-items";
 export default function Projects({ results }) {
   console.log("test results!!!");
   console.log(results[0]);
+  console.log(results[1]);
+  console.log(results[2]);
+  console.log(results[3]);
   return (
     <>
       <section className="text-gray-600 body-font overflow-hidden">

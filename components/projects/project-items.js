@@ -1,9 +1,7 @@
 import Image from "next/image";
 
 export default function ProjectItems({ data }) {
-  const title = data.properties.name.title[0].plain_text;
-  console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-  console.log(title);
+  // const title = data.properties.name.title[0].plain_text;
   // const github = data.properties.github.url;
   // const youtube = data.properties.youtube.url;
   // const description = data.properties.desc.rich_text[0].plain_text;
@@ -50,7 +48,7 @@ export default function ProjectItems({ data }) {
         quality={100}
       />
       <div className="p-4 flex flex-col">
-        <h1 className="text-2xl font-bold">{title}</h1>
+        <h1 className="text-2xl font-bold">title</h1>
         <h3 className="mt-4 text-xl">description</h3>
         {/* <a href={github}>깃허브 바로가기</a>
         <a href={youtube}>유튜브 바로가기</a> */}
