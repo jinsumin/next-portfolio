@@ -7,9 +7,9 @@ import Education from "./education";
 import Projects from "./projects";
 import Skills from "./skills";
 import Contacts from "./contacts";
-import Slider from "../components/slider";
+import { TOKEN, DATABASE_ID } from "../config";
 
-export default function Home() {
+export default function Home({ projects }) {
   return (
     <Layout>
       <Head>
@@ -22,9 +22,40 @@ export default function Home() {
         <About />
         <Skills />
         <Education />
-        <Projects />
+        <Projects projects={projects} />
         <Contacts />
       </div>
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  const options = {
+    method: "POST",
+    headers: {
+      Accept: "application/json",
+      "Notion-Version": "2022-02-22",
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${TOKEN}`,
+    },
+    body: JSON.stringify({ page_size: 100 }),
+  };
+
+  console.log("test!!!");
+
+  const response = await fetch(
+    `https://api.notion.com/v1/databases/${DATABASE_ID}/query`,
+    options
+  );
+
+  const projects = await response.json();
+  const projectNames = projects.results.map(
+    (aProject) => aProject.properties.name.title[0].plain_text
+  );
+
+  console.log(`projectNames : ${projectNames}`);
+
+  return {
+    props: { projects }, // will be passed to the page component as props
+  };
 }
