@@ -97,6 +97,9 @@ export default function Skills() {
             </div>
           </div>
         </div>
+        <div className="flex flex-col items-center w-full mb-12">
+          <span className="h-1 w-20 rounded bg-indigo-500"></span>
+        </div>
       </section>
     </>
   );

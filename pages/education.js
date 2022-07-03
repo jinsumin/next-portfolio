@@ -2,6 +2,11 @@ export default function Education() {
   return (
     <>
       <section className="text-gray-600 body-font">
+        <div className="flex flex-col text-center w-full mt-20">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+            Education
+          </h1>
+        </div>
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -26,7 +31,7 @@ export default function Education() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Shooting Stars
+                  인하대학교 정보통신공학 전공
                 </h2>
                 <p className="leading-relaxed">
                   VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
@@ -58,7 +63,7 @@ export default function Education() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  The Catalyzer
+                  시리즈 D 개발자 과정 수료
                 </h2>
                 <p className="leading-relaxed">
                   VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
@@ -91,7 +96,7 @@ export default function Education() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  The 400 Blows
+                  라이징캠프 Web 과정 수료
                 </h2>
                 <p className="leading-relaxed">
                   VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
@@ -124,7 +129,7 @@ export default function Education() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Neptune
+                  하나금융티아이 채용 연계형 교육중 (현)
                 </h2>
                 <p className="leading-relaxed">
                   VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
@@ -133,6 +138,9 @@ export default function Education() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex flex-col items-center w-full mb-12">
+          <span className="h-1 w-20 rounded bg-indigo-500"></span>
         </div>
       </section>
     </>

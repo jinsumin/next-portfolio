@@ -20,7 +20,7 @@ export default function Main() {
               주변, <br />
               그리고 함께하는 팀의 성장을 도울 수 있는 개발자가 되기 위해
               노력하고 있습니다. <br />
-              
+
             </p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
@@ -37,6 +37,9 @@ export default function Main() {
               height={700}
             />
           </div>
+        </div>
+        <div className="flex flex-col items-center w-full mb-12">
+          <span className="h-1 w-20 rounded bg-indigo-500"></span>
         </div>
       </section>
     </>
