@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Layout from "../components/layout";
 import Main from "./main";
 import About from "./about";
@@ -55,12 +54,8 @@ export async function getStaticProps() {
     `https://api.notion.com/v1/databases/${DATABASE_ID}/query`,
     options
   );
-  const projects = await response.json();
-  const projectName = projects.results.map(
-    (aProject) => aProject.properties.Name.title[0].plain_text
-  );
-
-  console.log(projectName);
+  let projects = false;
+  projects = await response.json();
 
   return {
     props: { projects }, // will be passed to the page component as props
