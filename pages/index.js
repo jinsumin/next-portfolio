@@ -9,7 +9,9 @@ import Skills from "./skills";
 import Contacts from "./contacts";
 import { TOKEN, DATABASE_ID } from "../config";
 
-export default function Home({ results }) {
+export default function Home({ projects }) {
+  console.log(projects);
+
   return (
     <Layout>
       <Head>
@@ -22,7 +24,7 @@ export default function Home({ results }) {
         <About />
         <Skills />
         <Education />
-        <Projects results={results} />
+        <Projects projects={projects} />
         <Contacts />
       </div>
     </Layout>
@@ -38,20 +40,29 @@ export async function getStaticProps() {
       "Content-Type": "application/json",
       Authorization: `Bearer ${TOKEN}`,
     },
-    body: JSON.stringify({ page_size: 100 }),
+    body: JSON.stringify({
+      sorts: [
+        {
+          property: "Name",
+          direction: "ascending",
+        },
+      ],
+      page_size: 100,
+    }),
   };
-
-  console.log("test!!!");
 
   const response = await fetch(
     `https://api.notion.com/v1/databases/${DATABASE_ID}/query`,
     options
   );
-
   const projects = await response.json();
-  const results = projects.results;
+  const projectName = projects.results.map(
+    (aProject) => aProject.properties.Name.title[0].plain_text
+  );
+
+  console.log(projectName);
 
   return {
-    props: { results }, // will be passed to the page component as props
+    props: { projects }, // will be passed to the page component as props
   };
 }
