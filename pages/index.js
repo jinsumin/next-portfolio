@@ -54,7 +54,7 @@ export async function getStaticProps() {
     `https://api.notion.com/v1/databases/${DATABASE_ID}/query`,
     options
   );
-  let projects = false;
+  let projects = null;
   projects = await response.json();
 
   return {
