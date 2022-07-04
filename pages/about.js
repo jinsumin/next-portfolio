@@ -80,9 +80,9 @@ export default function About() {
                   <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
                 </svg>
                 <h2 className="title-font font-medium text-3xl text-gray-900">
-                  북 스터디
+                  유튜브
                 </h2>
-                <p className="leading-relaxed">github.com/dev-book-readers</p>
+                <p className="leading-relaxed">www.youtube.com/channel/UCEu1FY-1dmOMGOrx03EwSTQ</p>
               </div>
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
