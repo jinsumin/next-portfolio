@@ -82,7 +82,7 @@ export default function About() {
                 <h2 className="title-font font-medium text-3xl text-gray-900">
                   유튜브
                 </h2>
-                <p className="leading-relaxed">www.youtube.com/channel/UCEu1FY-1dmOMGOrx03EwSTQ</p>
+                <p className="leading-relaxed">채널 바로가기</p>
               </div>
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
