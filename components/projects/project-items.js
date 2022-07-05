@@ -41,7 +41,7 @@ export default function ProjectItems({ data }) {
         src={imgSrc}
         alt="cover image"
         width="100%"
-        height="50%"
+        height="60%"
         layout="responsive"
         objectFit="cover"
         quality={100}
