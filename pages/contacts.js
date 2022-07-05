@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
+import { TOKEN_FOR_USERS } from "../config";
 
 export default function Contacts() {
   const [name, setName] = useState("");
@@ -9,11 +10,11 @@ export default function Contacts() {
 
   const submitForm = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://dev.soomin.world/api/submit-form", {
+    const res = await fetch("https://dev.soomin.world/api/submit-form", {
       method: "POST",
       body: JSON.stringify({ name, email, message }),
     });
-    // Success if status code is 201
+
     if (res.status === 201) {
       toast("메시지가 성공적으로 전달 되었습니다!", { type: "success" });
     } else {
