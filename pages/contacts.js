@@ -1,4 +1,26 @@
+import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
+
 export default function Contacts() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const submitForm = async (e) => {
+    e.preventDefault();
+    const res = await fetch("http://localhost:3000/api/submit-form", {
+      method: "POST",
+      body: JSON.stringify({ name, email, message }),
+    });
+    // Success if status code is 201
+    if (res.status === 201) {
+      toast("메시지가 성공적으로 전달 되었습니다!", { type: "success" });
+    } else {
+      toast("전송 실패 : 입력창을 확인해 주세요.", { type: "error" });
+    }
+  };
+
   return (
     <>
       <section className="text-gray-600 body-font relative">
@@ -28,6 +50,77 @@ export default function Contacts() {
                 scenester sriracha forage franzen organic drinking vinegar.
               </p>
             </div>
+            <ToastContainer />
+            <form onSubmit={submitForm}>
+              <div className="lg:w-1/2 md:w-2/3 mx-auto">
+                <div className="flex flex-wrap -m-2">
+                  <div className="p-2 w-1/2">
+                    <div className="relative">
+                      <label
+                        htmlFor="name"
+                        className="leading-7 text-sm text-gray-600"
+                      >
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        required
+                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                  <div className="p-2 w-1/2">
+                    <div className="relative">
+                      <label
+                        htmlFor="email"
+                        className="leading-7 text-sm text-gray-600"
+                      >
+                        Email
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                  <div className="p-2 w-full">
+                    <div className="relative">
+                      <label
+                        htmlFor="message"
+                        className="leading-7 text-sm text-gray-600"
+                      >
+                        Message
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                        required
+                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div className="p-2 w-full">
+                    <button
+                      type="submit"
+                      className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                    >
+                      Button
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
