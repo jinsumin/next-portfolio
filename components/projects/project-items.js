@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 export default function ProjectItems({ data }) {
   const title = data.properties.Name.title[0].plain_text;
