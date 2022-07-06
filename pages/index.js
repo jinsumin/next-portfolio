@@ -40,12 +40,12 @@ export async function getServerSideProps() {
       Authorization: `Bearer ${TOKEN}`,
     },
     body: JSON.stringify({
-      sorts: [
-        {
-          property: "Name",
-          direction: "ascending",
-        },
-      ],
+      // sorts: [
+      //   {
+      //     property: "Name",
+      //     direction: "ascending",
+      //   },
+      // ],
       page_size: 100,
     }),
   };
