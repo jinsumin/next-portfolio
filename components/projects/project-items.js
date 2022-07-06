@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function ProjectItems({ data }) {
   const title = data.properties.Name.title[0].plain_text;
@@ -36,34 +38,41 @@ export default function ProjectItems({ data }) {
 
   return (
     <div className="project-card">
-      <Image
-        className="rounded-t-xl"
-        src={imgSrc}
-        alt="cover image"
-        width="100%"
-        height="60%"
-        layout="responsive"
-        objectFit="cover"
-        quality={100}
-      />
-      <div className="p-4 flex flex-col">
-        <h1 className="text-2xl font-bold">{title}</h1>
-        <h3 className="mt-4 text-xl">{desc}</h3>
-        <a href={link}>링크 바로가기</a>
-        <p className="my-1">
-          프로젝트 기간 : {start} ~ {end} ({calculatePeriod(start, end)}일)
-        </p>
-        <div className="flex items-start mt-2">
-          {tags.map((aTag) => (
-            <h1
-              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30"
-              key={aTag.id}
-            >
-              {aTag.name}
-            </h1>
-          ))}
-        </div>
-      </div>
+      <Link href={`${link}`}>
+        <a target="_blank" rel="noopener noreferrer">
+          <div>
+            <Image
+              className="rounded-t-xl"
+              src={imgSrc}
+              alt="cover image"
+              width="100%"
+              height="60%"
+              layout="responsive"
+              objectFit="cover"
+              quality={100}
+            />
+            <div className="p-4 flex flex-col">
+              <h1 className="text-2xl font-bold">{title}</h1>
+              <h3 className="mt-4 text-xl">{desc}</h3>
+              <a href={link}>링크 바로가기</a>
+              <p className="my-1">
+                프로젝트 기간 : {start} ~ {end} ({calculatePeriod(start, end)}
+                일)
+              </p>
+              <div className="flex items-start mt-2">
+                {tags.map((aTag) => (
+                  <h1
+                    className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30"
+                    key={aTag.id}
+                  >
+                    {aTag.name}
+                  </h1>
+                ))}
+              </div>
+            </div>
+          </div>
+        </a>
+      </Link>
     </div>
   );
 }
