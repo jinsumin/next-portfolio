@@ -1,9 +1,15 @@
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
-import { TOKEN_FOR_USERS } from "../config";
 
 export default function Contacts() {
+  const router = useRouter();
+
+  const refreshServerSide = () => {
+    router.replace(router.asPath);
+  };
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -16,6 +22,10 @@ export default function Contacts() {
     });
 
     if (res.status === 201) {
+      refreshServerSide();
+      setName("");
+      setEmail("");
+      setMessage("");
       toast("메시지가 성공적으로 전달 되었습니다!", { type: "success" });
     } else {
       toast("전송 실패 : 입력창을 확인해 주세요.", { type: "error" });
