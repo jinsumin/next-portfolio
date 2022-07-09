@@ -21,7 +21,8 @@ export default function Home({ projects }) {
       <div>
         <Main />
         <About />
-        <Skills />
+        {/* TO DO : skills 수정중 */}
+        {/* <Skills /> */}
         <Education />
         <Projects projects={projects} />
         <Contacts />
