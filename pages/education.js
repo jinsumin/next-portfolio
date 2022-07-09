@@ -1,3 +1,9 @@
+import Image from "next/image";
+import image01 from "/public/graduate.png";
+import image02 from "/public/developer.png";
+import image03 from "/public/rising.png";
+import image04 from "/public/school.png";
+
 export default function Education() {
   return (
     <>
@@ -17,7 +23,7 @@ export default function Education() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                <svg
+                {/* <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -27,15 +33,14 @@ export default function Education() {
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                </svg>
+                </svg> */}
+                <Image src={image01} alt="school"/>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                   인하대학교 정보통신공학 전공
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
                 </p>
               </div>
             </div>
@@ -49,7 +54,7 @@ export default function Education() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                <svg
+                {/* <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -59,16 +64,13 @@ export default function Education() {
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
+                </svg> */}
+                <Image src={image02} alt="school" />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                   시리즈 D 개발자 과정 수료
                 </h2>
-                <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
-                </p>
               </div>
             </div>
           </div>
@@ -81,7 +83,7 @@ export default function Education() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                <svg
+                {/* <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -92,16 +94,13 @@ export default function Education() {
                 >
                   <circle cx="12" cy="5" r="3"></circle>
                   <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                </svg>
+                </svg> */}
+                <Image src={image03} alt="school"/>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                   라이징캠프 Web 과정 수료
                 </h2>
-                <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
-                </p>
               </div>
             </div>
           </div>
@@ -114,7 +113,7 @@ export default function Education() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                <svg
+                {/* <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -125,16 +124,13 @@ export default function Education() {
                 >
                   <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                   <circle cx="12" cy="7" r="4"></circle>
-                </svg>
+                </svg> */}
+                <Image src={image04} alt="school" />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                   하나금융티아이 채용 연계형 교육중 (현)
                 </h2>
-                <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
-                </p>
               </div>
             </div>
           </div>
