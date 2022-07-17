@@ -14,8 +14,8 @@ export default function Skills() {
           </div>
 
           <div className="grid grid-cols-3 grid-rows-1 gap-20 grid-flow-col text-center mx-20">
-            <div className="space-y-16">
-              <div className="row-start-1 row-end-2 border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
+            <div className="row-span-1 space-y-16">
+              <div className="border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
                   Frontend
                 </div>
@@ -26,7 +26,7 @@ export default function Skills() {
                   height={900}
                 />
               </div>
-              <div className="row-span-1 border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
+              <div className="border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
                   Mobile
                 </div>
@@ -39,8 +39,8 @@ export default function Skills() {
               </div>
             </div>
 
-            <div className="space-y-16">
-              <div className="row-span-1 border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
+            <div className="row-span-1 space-y-16">
+              <div className="border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
                   Backend
                 </div>
@@ -52,7 +52,7 @@ export default function Skills() {
                 />
               </div>
 
-              <div className="row-span-1 border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
+              <div className="border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
                   Deployment
                 </div>
@@ -65,8 +65,8 @@ export default function Skills() {
               </div>
             </div>
 
-            <div className="space-y-16">
-              <div className="row-span-1 border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
+            <div className="row-span-1 space-y-16">
+              <div className="border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
                   Communication
                 </div>
@@ -78,7 +78,7 @@ export default function Skills() {
                 />
               </div>
 
-              <div className="row-span-1 border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
+              <div className="border rounded-lg bg-white shadow-2xl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
                   Certification
                 </div>
