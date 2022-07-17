@@ -51,23 +51,19 @@ export default function About() {
                 <a target="_blank" rel="noopener noreferrer">
                   <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 500 500"
                       fill="none"
                       stroke="currentColor"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
+                      strokeWidth="20"
                       className="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                      viewBox="0 0 24 24"
                     >
-                      <rect
-                        width="20"
-                        height="20"
-                        x="2"
-                        y="2"
-                        rx="5"
-                        ry="5"
-                      ></rect>
-                      <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                      <title>티스토리 로고</title>
+                      <g>
+                        <path d="M229.5,0C102.75,0,0,102.75,0,229.5S102.75,459,229.5,459,459,356.25,459,229.5,356.25,0,229.5,0ZM130.21,191.45a39.57,39.57,0,1,1,39.56-39.57A39.58,39.58,0,0,1,130.21,191.45ZM229.5,390a39.56,39.56,0,1,1,39.56-39.56A39.56,39.56,0,0,1,229.5,390Zm0-99.29a39.56,39.56,0,1,1,39.56-39.56A39.56,39.56,0,0,1,229.5,290.74Zm0-99.29a39.57,39.57,0,1,1,39.56-39.57A39.57,39.57,0,0,1,229.5,191.45Zm99.29,0a39.57,39.57,0,1,1,39.57-39.57A39.57,39.57,0,0,1,328.79,191.45Z" />
+                      </g>
                     </svg>
 
                     <h2 className="title-font font-medium text-3xl text-gray-900">
