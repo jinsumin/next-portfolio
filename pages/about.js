@@ -23,7 +23,7 @@ export default function About() {
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <Link href="https://github.com/jinsumin">
                 <a target="_blank" rel="noopener noreferrer">
-                  <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 hover:shadow-lg dark:hover:shadow-gray-400/40 hover:text-blue-600">
+                  <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                     <div className="text-indigo-500 w-12 h-12 mb-3 inline-block">
                       <svg
                         fill="none"
@@ -49,7 +49,7 @@ export default function About() {
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <Link href="https://devlog-soomin.tistory.com">
                 <a target="_blank" rel="noopener noreferrer">
-                  <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 hover:shadow-lg dark:hover:shadow-gray-400/40 hover:text-blue-600">
+                  <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -82,7 +82,7 @@ export default function About() {
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <Link href="https://www.youtube.com/channel/UCEu1FY-1dmOMGOrx03EwSTQ">
                 <a target="_blank" rel="noopener noreferrer">
-                  <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 hover:shadow-lg dark:hover:shadow-gray-400/40 hover:text-blue-600">
+                  <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -106,7 +106,7 @@ export default function About() {
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <Link href="https://www.acmicpc.net/user/smjin031">
                 <a target="_blank" rel="noopener noreferrer">
-                  <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 hover:shadow-lg dark:hover:shadow-gray-400/40 hover:text-blue-600">
+                  <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                     <svg
                       fill="none"
                       stroke="currentColor"
