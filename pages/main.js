@@ -1,9 +1,19 @@
 import Image from "next/image";
 import TypingEffect from "../components/typing-effect";
 
+document.querySelectorAll('button[href^="#"]').forEach((button) => {
+  button.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
+
 export default function Main() {
   return (
-    <>
+    <div id="main-section">
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -20,10 +30,12 @@ export default function Main() {
               주변, <br />
               그리고 함께하는 팀의 성장을 도울 수 있는 개발자가 되기 위해
               노력하고 있습니다. <br />
-
             </p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              <button
+                href="#about-section"
+                className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
                 더 알아보기
               </button>
             </div>
@@ -42,6 +54,6 @@ export default function Main() {
           <span className="h-1 w-20 rounded bg-indigo-500"></span>
         </div>
       </section>
-    </>
+    </div>
   );
 }

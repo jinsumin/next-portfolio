@@ -2,7 +2,7 @@ import ProjectItems from "../components/projects/project-items";
 
 export default function Projects({ projects }) {
   return (
-    <>
+    <div id="projects-section">
       <section className="text-gray-600 body-font">
         <div className="flex flex-col items-center justify-center min-h-screen px-5 py-24">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Projects</h1>
@@ -16,6 +16,6 @@ export default function Projects({ projects }) {
           <span className="h-1 w-20 rounded bg-indigo-500"></span>
         </div>
       </section>
-    </>
+    </div>
   );
 }

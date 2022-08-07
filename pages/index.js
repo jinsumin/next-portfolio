@@ -9,8 +9,6 @@ import Contacts from "./contacts";
 import { TOKEN, DATABASE_ID } from "../config";
 
 export default function Home({ projects }) {
-  console.log(projects);
-
   return (
     <Layout>
       <Head>

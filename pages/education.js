@@ -6,7 +6,7 @@ import image04 from "/public/school.png";
 
 export default function Education() {
   return (
-    <>
+    <div id="education-section">
       <section className="text-gray-600 body-font">
         <div className="flex flex-col text-center w-full mt-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
@@ -139,6 +139,6 @@ export default function Education() {
           <span className="h-1 w-20 rounded bg-indigo-500"></span>
         </div>
       </section>
-    </>
+    </div>
   );
 }

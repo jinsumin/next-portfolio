@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <>
+    <div id="skills-section">
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
@@ -97,6 +97,6 @@ export default function Skills() {
           <span className="h-1 w-20 rounded bg-indigo-500"></span>
         </div>
       </section>
-    </>
+    </div>
   );
 }

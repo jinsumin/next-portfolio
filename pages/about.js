@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <>
+    <div id="about-section">
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
@@ -128,6 +128,6 @@ export default function About() {
           <span className="h-1 w-20 rounded bg-indigo-500"></span>
         </div>
       </section>
-    </>
+    </div>
   );
 }

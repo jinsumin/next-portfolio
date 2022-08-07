@@ -4,7 +4,10 @@ export default function Footer() {
       <footer className="body-font shadow-2xl">
         <div className="shadow-2xl">
           <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-            <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 ">
+            <a
+              href="#main-section"
+              className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 "
+            >
               <span className="ml-3 text-xl">진수민의 포트폴리오</span>
             </a>
             <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
@@ -89,3 +92,13 @@ export default function Footer() {
     </>
   );
 }
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
