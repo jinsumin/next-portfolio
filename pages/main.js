@@ -1,17 +1,20 @@
 import Image from "next/image";
+import { useEffect } from "react";
 import TypingEffect from "../components/typing-effect";
 
-document.querySelectorAll('button[href^="#"]').forEach((button) => {
-  button.addEventListener("click", function (e) {
-    e.preventDefault();
+export default function Main() {
+  useEffect(() => {
+    document.querySelectorAll('button[href^="#"]').forEach((button) => {
+      button.addEventListener("click", function (e) {
+        e.preventDefault();
 
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth",
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth",
+        });
+      });
     });
   });
-});
 
-export default function Main() {
   return (
     <div id="main-section">
       <section className="text-gray-600 body-font">

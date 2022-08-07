@@ -1,17 +1,20 @@
 import DarkModeToggleButton from "./dark-mode-toggle-button";
 import Animation from "./animation";
-
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener("click", function (e) {
-    e.preventDefault();
-
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth",
-    });
-  });
-});
+import { useEffect } from "react";
 
 export default function Header() {
+  useEffect(() => {
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+    });
+  });
+
   return (
     <>
       <header className="sticky top-0 z-50 text-gray-600 body-font shadow-2xl">
