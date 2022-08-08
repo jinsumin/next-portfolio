@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: 'DoHyeon';
+    src: url('/fonts/Do-Hyeon-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+  }
+}
+
 .bg-primary {
   @apply bg-slate-100 dark:bg-slate-800
 }
