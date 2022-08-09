@@ -34,7 +34,7 @@ export default function Skills() {
                   src="/skills/mobile-skills.png"
                   alt="mobile skills"
                   width={380}
-                  height={220}
+                  height={320}
                 />
               </div>
             </div>
