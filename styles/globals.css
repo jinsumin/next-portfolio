@@ -10,6 +10,14 @@
     font-display: swap;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'NotoSans';
+    src: url('/fonts/NotoSansKR-Regular') format('otf');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal
+  }
 }
 
 .bg-primary {
