@@ -10,7 +10,6 @@ module.exports = {
     extend: {
       fontFamily: {
         dohyeon: "DoHyeon, cursive",
-        notoSansKR: "NotoSans",
       },
     },
   },
