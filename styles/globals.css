@@ -12,11 +12,10 @@
   }
 
   @font-face {
-    font-family: 'NotoSans';
-    src: url('/fonts/NotoSansKR-Regular') format('otf');
-    font-weight: 500;
-    font-display: swap;
-    font-style: normal
+    font-family: 'HanaFont';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('/fonts/HanaM.woff') format('woff');
   }
 }
 
