@@ -2,7 +2,7 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import Main from "./main";
 import About from "./about";
-import Education from "./education";
+import Experience from "./experience";
 import Projects from "./projects";
 import Skills from "./skills";
 import Contacts from "./contacts";
@@ -20,7 +20,7 @@ export default function Home({ projects }) {
         <Main />
         <About />
         <Skills />
-        <Education />
+        <Experience />
         <Projects projects={projects} />
         <Contacts />
       </div>

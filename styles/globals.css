@@ -17,6 +17,13 @@
     font-weight: 400;
     src: local(''), url('/fonts/HanaM.woff') format('woff');
   }
+
+  @font-face {
+    font-family: 'Hyundai';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('/fonts/fontYouandiModernTR.tff') format('tff');
+  }
 }
 
 .bg-primary {
@@ -76,6 +83,7 @@ p {
   overflow: hidden;
   transition: 0.5s;
   backdrop-filter: blur(2px);
+  @apply text-gray-700 dark:text-white
 }
 
 .main-btn:hover button{

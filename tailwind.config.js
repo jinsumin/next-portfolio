@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         dohyeon: "DoHyeon, cursive",
         hanafont: ["HanaFont"],
+        hyundai: ["Hyundai"],
       },
     },
   },
