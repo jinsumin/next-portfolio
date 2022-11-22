@@ -9,7 +9,7 @@ export default function Projects({ projects }) {
             Projects
           </h1>
           <div
-            className="grid grid-cols-1 md:grid-cols-2 m-6 gap-12 mx-10 max-w-6xl"
+            className="grid grid-cols-1 md:grid-cols-2 m-6 gap-12 max-w-6xl"
           >
             {projects !== null
               ? projects.results.map((aProject) => (
