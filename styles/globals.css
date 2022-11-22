@@ -31,11 +31,11 @@
 }
 
 .project-card {
-  @apply flex flex-col m-3 rounded-xl transition duration-300
-  transform border border-gray-300 
-  hover:scale-105 hover:shadow-lg
+  @apply flex flex-col m-3 rounded-2xl transition duration-300
+  transform
+  hover:scale-105 hover:shadow-2xl
   dark:border-gray-200/50
-  dark:hover:shadow-gray-400/40
+  dark:hover:shadow-gray-400/50
   hover:text-blue-600
 }
 

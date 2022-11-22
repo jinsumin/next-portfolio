@@ -36,7 +36,7 @@ export default function ProjectItems({ data }) {
   };
 
   return (
-    <div className="project-card">
+    <div className="project-card bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10">
       <Link href={`${link}`}>
         <a target="_blank" rel="noopener noreferrer">
           <div>
