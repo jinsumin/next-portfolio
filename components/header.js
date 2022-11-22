@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 text-gray-600 body-font shadow-2xl">
+      <header className="sticky top-0 z-50 text-gray-600 body-font shadow-2xl bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a
             href="#main-section"
