@@ -4,7 +4,7 @@ export default function Projects({ projects }) {
   return (
     <div id="projects-section">
       <section className="text-gray-600 body-font">
-        <div className="flex flex-col items-center justify-center min-h-screen px-5 py-24">
+        <div className="flex flex-col items-center justify-center min-h-screen py-24">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Projects
           </h1>
