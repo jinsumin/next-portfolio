@@ -55,7 +55,7 @@ export default function Main() {
           </div>
         </div>
         <div className="flex flex-col items-center w-full mb-12">
-          <span className="h-1 w-20 rounded bg-indigo-500"></span>
+          <span className="h-1 w-20 rounded bg-cyan-500"></span>
         </div>
       </section>
     </div>

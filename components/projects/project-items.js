@@ -36,7 +36,7 @@ export default function ProjectItems({ data }) {
   };
 
   return (
-    <div className="project-card bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10">
+    <div className="project-card bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10">
       <Link href={`${link}`}>
         <a target="_blank" rel="noopener noreferrer">
           <div>
@@ -60,7 +60,7 @@ export default function ProjectItems({ data }) {
               <div className="flex flex-wrap items-start mt-2">
                 {tags.map((aTag) => (
                   <h1
-                    className="px-2 py-1 mr-2 my-1 rounded-md bg-sky-200 dark:bg-sky-700 w-30"
+                    className="px-2 py-1 mr-2 my-1 rounded-md bg-cyan-500 dark:bg-cyan-600 w-30"
                     key={aTag.id}
                   >
                     {aTag.name}

@@ -16,7 +16,7 @@ export default function Skills() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-20 text-center">
             <div className="row-span-1 space-y-16">
               <div className="border rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
-                <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
+                <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
                   Frontend
                 </div>
                 <Image
@@ -27,7 +27,7 @@ export default function Skills() {
                 />
               </div>
               <div className="border rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
-                <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
+                <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
                   Mobile
                 </div>
                 <Image
@@ -41,7 +41,7 @@ export default function Skills() {
 
             <div className="row-span-1 space-y-16">
               <div className="border rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
-                <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
+                <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
                   Backend
                 </div>
                 <Image
@@ -53,7 +53,7 @@ export default function Skills() {
               </div>
 
               <div className="border rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
-                <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
+                <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
                   Deployment
                 </div>
                 <Image
@@ -67,7 +67,7 @@ export default function Skills() {
 
             <div className="row-span-1 space-y-16">
               <div className="border rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
-                <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
+                <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
                   Communication
                 </div>
                 <Image
@@ -79,7 +79,7 @@ export default function Skills() {
               </div>
 
               <div className="border rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
-                <div className="text-3xl font-bold text-indigo-600 border-b-2 border-indigo-600 m-2 mb-10">
+                <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
                   Certification
                 </div>
                 <Image
@@ -94,7 +94,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-col items-center w-full mb-12">
-          <span className="h-1 w-20 rounded bg-indigo-500"></span>
+          <span className="h-1 w-20 rounded bg-cyan-500"></span>
         </div>
       </section>
     </div>

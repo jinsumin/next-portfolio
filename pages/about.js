@@ -24,14 +24,14 @@ export default function About() {
               <Link href="https://github.com/jinsumin">
                 <a target="_blank" rel="noopener noreferrer">
                   <div className="border-2 border-gray-200 px-4 py-6 rounded-lg transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
-                    <div className="text-indigo-500 w-12 h-12 mb-3 inline-block">
+                    <div className="text-cyan-500 w-12 h-12 mb-3 inline-block">
                       <svg
                         fill="none"
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
-                        className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                        className="text-cyan-500 w-12 h-12 mb-3 inline-block"
                         viewBox="0 0 24 24"
                       >
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -58,7 +58,7 @@ export default function About() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="20"
-                      className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                      className="text-cyan-500 w-12 h-12 mb-3 inline-block"
                     >
                       <title>티스토리 로고</title>
                       <g>
@@ -85,7 +85,7 @@ export default function About() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="1.8"
-                      className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                      className="text-cyan-500 w-12 h-12 mb-3 inline-block"
                       viewBox="0 0 24 24"
                     >
                       <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
@@ -109,7 +109,7 @@ export default function About() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="1.3"
-                      className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                      className="text-cyan-500 w-12 h-12 mb-3 inline-block"
                       viewBox="0 0 24 24"
                     >
                       <path d="M16 3.383l-.924-.383-7.297 17.617.924.383 7.297-17.617zm.287 3.617l6.153 4.825-6.173 5.175.678.737 7.055-5.912-7.048-5.578-.665.753zm-8.478 0l-6.249 4.825 6.003 5.175-.679.737-6.884-5.912 7.144-5.578.665.753z" />
@@ -125,7 +125,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex flex-col items-center w-full mb-12">
-          <span className="h-1 w-20 rounded bg-indigo-500"></span>
+          <span className="h-1 w-20 rounded bg-cyan-500"></span>
         </div>
       </section>
     </div>
