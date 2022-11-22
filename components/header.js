@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 text-gray-600 body-font shadow-2xl bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10">
+      <header className="hidden md:flex sticky top-0 z-50 text-gray-600 body-font shadow-2xl bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a
             href="#main-section"
@@ -49,6 +49,33 @@ export default function Header() {
            * 다크모드 토글 버튼
            */}
           <DarkModeToggleButton />
+        </div>
+      </header>
+      <header className="md:hidden flex sticky top-0 z-50 text-gray-600 body-font shadow-2xl bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10">
+        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a
+            href="#main-section"
+            className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+          >
+            <Animation width={30} height={30} />
+            <span className="ml-3 text-xl">진수민의 포트폴리오</span>
+          </a>
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
       </header>
     </>
