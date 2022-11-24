@@ -7,6 +7,7 @@ import Projects from "./projects";
 import Skills from "./skills";
 import Contacts from "./contacts";
 import { TOKEN, DATABASE_ID } from "../config";
+import Awards from "./awards";
 
 export default function Home({ projects }) {
   return (
@@ -19,6 +20,7 @@ export default function Home({ projects }) {
       <div>
         <Main />
         <About />
+        <Awards />
         <Skills />
         <Experience />
         <Projects projects={projects} />

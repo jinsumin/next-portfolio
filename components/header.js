@@ -35,6 +35,9 @@ export default function Header() {
             <a href="#about-section" className="mr-5 hover:text-gray-900">
               About
             </a>
+            <a href="#awards-section" className="mr-5 hover:text-gray-900">
+              Awards
+            </a>
             <a href="#skills-section" className="mr-5 hover:text-gray-900">
               Skills
             </a>

@@ -26,7 +26,7 @@ export default function Experience() {
               </div>
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-cyan-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
                 <Image src={image01} alt="school" />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
@@ -48,7 +48,7 @@ export default function Experience() {
               </div>
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-cyan-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
                 <Image src={image02} alt="school" width={65} height={65}/>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
@@ -69,7 +69,7 @@ export default function Experience() {
               </div>
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-cyan-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
                 <Image src={image03} alt="school" width={65} height={65}/>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
@@ -90,7 +90,7 @@ export default function Experience() {
               </div>
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-cyan-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
                 <Image src={image04} alt="school" width={50} height={50}/>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
@@ -111,7 +111,7 @@ export default function Experience() {
               </div>
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-cyan-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
                 <Image src={image05} alt="school" width={55} height={55}/>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
