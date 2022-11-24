@@ -66,7 +66,7 @@ export default function Skills() {
             </div>
 
             <div className="row-span-1 space-y-16">
-              <div className="border rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
+              <div className="border mx-4 rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
                   Communication
                 </div>
