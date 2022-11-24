@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Special from "./special";
 import image from "/public/medal.png";
 
 const Awards = () => {
@@ -7,10 +8,13 @@ const Awards = () => {
     <div id="awards-section">
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
+          <div className="flex flex-col text-center w-full mb-20 place-items-center">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
               Awards
             </h1>
+            <div className="mt-20 rounded-3xl w-auto md:w-2/3 sm:w-2/3">
+              <Special />
+            </div>
           </div>
           <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
