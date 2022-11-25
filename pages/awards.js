@@ -27,7 +27,7 @@ const Awards = () => {
               <p className="leading-relaxed text-base">
                 KOPO STARTUP 벤처창업아이템경진대회 1위 대상 고용노동부장관상
                 <br />
-                금융 플랫폼, 하나1Q웨딩 3인 프로젝트
+                금융 플랫폼, 하나1Q웨딩 3인 프로젝트, 하나의 광명팀
               </p>
               <p className="mt-3 text-indigo-500 inline-flex items-center">
                 2022.11.23
@@ -66,7 +66,7 @@ const Awards = () => {
                 팀장 시민연구원 위촉
                 <br />
                 지역공동체 활성화를 위한 온오프라인 모임 플랫폼, 그루핑 5~7인
-                프로젝트
+                프로젝트, 그루퍼스팀
               </p>
               <p className="mt-3 text-indigo-500 inline-flex items-center">
                 2020.12.28
