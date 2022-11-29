@@ -5,6 +5,9 @@ import image from "/public/medal.png";
 import Link from "next/link";
 
 const Awards = () => {
+  const newsTitle = `우리일보, "폴리텍 광명융합기술교육원, 창업아이템경진대회서
+  대상 등 대거 수상"`;
+
   return (
     <div id="awards-section">
       <section className="text-gray-600 body-font">
@@ -39,8 +42,7 @@ const Awards = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    우리일보, "폴리텍 광명융합기술교육원, 창업아이템경진대회서
-                    대상 등 대거 수상"
+                    {newsTitle}
                   </a>
                 </Link>
               </p>
