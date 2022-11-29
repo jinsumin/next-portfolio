@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Special from "./special";
 import image from "/public/medal.png";
+import Link from "next/link";
 
 const Awards = () => {
   return (
@@ -28,6 +29,20 @@ const Awards = () => {
                 KOPO STARTUP 벤처창업아이템경진대회 1위 대상 고용노동부장관상
                 <br />
                 금융 플랫폼, 하나1Q웨딩 3인 프로젝트, 하나의 광명팀
+              </p>
+              <p>
+                <Link
+                  href={"http://www.wooriilbo.com/news/article.html?no=69917"}
+                >
+                  <a
+                    className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    우리일보, "폴리텍 광명융합기술교육원, 창업아이템경진대회서
+                    대상 등 대거 수상"
+                  </a>
+                </Link>
               </p>
               <p className="mt-3 text-indigo-500 inline-flex items-center">
                 2022.11.23
