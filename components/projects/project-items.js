@@ -48,7 +48,7 @@ export default function ProjectItems({ data }) {
               height="60%"
               layout="responsive"
               objectFit="cover"
-              quality={100}
+              quality={50}
             />
             <div className="p-4 flex flex-col">
               <h1 className="text-2xl font-bold">{title}</h1>
