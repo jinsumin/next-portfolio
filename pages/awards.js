@@ -5,10 +5,13 @@ import image from "/public/medal.png";
 import Link from "next/link";
 
 const Awards = () => {
+  const newsURL = "http://www.wooriilbo.com/news/article.html?no=69917";
   const newsTitle = `우리일보, "폴리텍 광명융합기술교육원, 창업아이템경진대회서
   대상 등 대거 수상"`;
   const magazineURL = "https://github.com/jinsumin/jinsumin/files/10123056/_.pdf";
-  const magazineTitle = "디지털 시민톡 매거진 SmartCitizenLab2020 디:톡스, 그루퍼스"
+  const magazineTitle = "디지털 시민톡 매거진 SmartCitizenLab2020 디:톡스, 그루퍼스.pdf"
+  const paperURL = "https://github.com/jinsumin/jinsumin/files/10111571/2022.pdf"
+  const paperTitle = "2022 실천공학 추계학술대회 발표집(김병관, 진수민).pdf"
 
   return (
     <div id="awards-section">
@@ -37,7 +40,7 @@ const Awards = () => {
               </p>
               <p>
                 <Link
-                  href={"http://www.wooriilbo.com/news/article.html?no=69917"}
+                  href={newsURL}
                 >
                   <a
                     className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
@@ -63,6 +66,19 @@ const Awards = () => {
                 한국실천공학교육학회 매체개발 및 학술논문발표대회 장려상
                 <br />
                 미디어 기술을 접목시킨 금융 결제 플랫폼 개발 논문
+              </p>
+              <p>
+                <Link
+                  href={paperURL}
+                >
+                  <a
+                    className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {paperTitle}
+                  </a>
+                </Link>
               </p>
               <p className="mt-3 text-indigo-500 inline-flex items-center">
                 2022.11.04
