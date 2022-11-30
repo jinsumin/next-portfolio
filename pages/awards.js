@@ -7,6 +7,8 @@ import Link from "next/link";
 const Awards = () => {
   const newsTitle = `우리일보, "폴리텍 광명융합기술교육원, 창업아이템경진대회서
   대상 등 대거 수상"`;
+  const magazineURL = "https://github.com/jinsumin/jinsumin/files/10123056/_.pdf";
+  const magazineTitle = "디지털 시민톡 매거진 SmartCitizenLab2020 디:톡스, 그루퍼스"
 
   return (
     <div id="awards-section">
@@ -76,7 +78,7 @@ const Awards = () => {
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                시민연구원 위촉장
+                시민연구원 위촉장 수여 및 디지털 시민 톡 매거진 게재
               </h2>
               <p className="leading-relaxed text-base">
                 스마트시민랩 창업 공모전 500만원 지원, 모바일 앱 개발 프로젝트
@@ -84,6 +86,19 @@ const Awards = () => {
                 <br />
                 지역공동체 활성화를 위한 온오프라인 모임 플랫폼, 그루핑 5~7인
                 프로젝트, 그루퍼스팀
+              </p>
+              <p>
+                <Link
+                  href={magazineURL}
+                >
+                  <a
+                    className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {magazineTitle}
+                  </a>
+                </Link>
               </p>
               <p className="mt-3 text-indigo-500 inline-flex items-center">
                 2020.12.28
