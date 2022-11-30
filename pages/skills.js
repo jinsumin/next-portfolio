@@ -24,6 +24,7 @@ export default function Skills() {
                   alt="front skills"
                   width={380}
                   height={900}
+                  quality={20}
                 />
               </div>
               <div className="border mx-4 rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
@@ -35,6 +36,7 @@ export default function Skills() {
                   alt="mobile skills"
                   width={380}
                   height={320}
+                  quality={20}
                 />
               </div>
             </div>
@@ -49,6 +51,7 @@ export default function Skills() {
                   alt="back skills"
                   width={380}
                   height={600}
+                  quality={20}
                 />
               </div>
 
@@ -61,6 +64,7 @@ export default function Skills() {
                   alt="deployment skills"
                   width={380}
                   height={460}
+                  quality={20}
                 />
               </div>
             </div>
@@ -75,6 +79,7 @@ export default function Skills() {
                   alt="communication skills"
                   width={380}
                   height={440}
+                  quality={20}
                 />
               </div>
 
@@ -87,6 +92,7 @@ export default function Skills() {
                   alt="certification skills"
                   width={380}
                   height={240}
+                  quality={20}
                 />
               </div>
             </div>
