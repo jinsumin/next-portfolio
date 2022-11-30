@@ -88,10 +88,10 @@ export default function Skills() {
                   Certification
                 </div>
                 <Image
-                  src="/skills/certification-skills.png"
+                  src="/skills/actfl_opic.png"
                   alt="certification skills"
                   width={380}
-                  height={240}
+                  height={140}
                   quality={20}
                 />
               </div>
