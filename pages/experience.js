@@ -116,7 +116,7 @@ export default function Experience() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  하나금융티아이 채용연계 교육과정 1200시간 수료
+                  하나금융티아이 금융IT 개발자 교육과정 1200시간 수료
                 </h2>
               </div>
             </div>
