@@ -9,8 +9,7 @@ export default function Skills() {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
               Skills
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            </p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
           </div>
 
           <div className="grid grid-cols-1 mx-4 sm:mx-24 md:mx-16 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-20 text-center">
@@ -29,13 +28,13 @@ export default function Skills() {
               </div>
               <div className="border mx-4 rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
-                  Mobile
+                  Certification
                 </div>
                 <Image
-                  src="/skills/mobile-skills.png"
-                  alt="mobile skills"
+                  src="/skills/actfl_opic.png"
+                  alt="certification skills"
                   width={380}
-                  height={320}
+                  height={140}
                   quality={20}
                 />
               </div>
@@ -57,13 +56,13 @@ export default function Skills() {
 
               <div className="border mx-4 rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
-                  Deployment
+                  Mobile
                 </div>
                 <Image
-                  src="/skills/deployment-skills.png"
-                  alt="deployment skills"
+                  src="/skills/mobile-skills.png"
+                  alt="mobile skills"
                   width={380}
-                  height={460}
+                  height={320}
                   quality={20}
                 />
               </div>
@@ -85,13 +84,13 @@ export default function Skills() {
 
               <div className="border mx-4 rounded-lg bg-white shadow-xxl transition duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl dark:hover:shadow-gray-400/40 hover:text-blue-600">
                 <div className="text-3xl font-bold text-cyan-600 border-b-2 border-cyan-600 m-2 mb-10">
-                  Certification
+                  Deployment
                 </div>
                 <Image
-                  src="/skills/actfl_opic.png"
-                  alt="certification skills"
+                  src="/skills/deployment-skills.png"
+                  alt="deployment skills"
                   width={380}
-                  height={140}
+                  height={460}
                   quality={20}
                 />
               </div>
