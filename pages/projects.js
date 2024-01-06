@@ -8,14 +8,11 @@ export default function Projects({ projects }) {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Projects
           </h1>
-          <div
-            className="grid grid-cols-1 md:grid-cols-2 m-6 gap-12 max-w-6xl"
-          >
-            {projects !== null
-              ? projects.results.map((aProject) => (
-                  <ProjectItems key={aProject.id} data={aProject} />
-                ))
-              : null}
+          <div className="grid grid-cols-1 md:grid-cols-2 m-6 gap-12 max-w-6xl">
+            {projects.results &&
+              projects.results.map((aProject) => (
+                <ProjectItems key={aProject.id} data={aProject} />
+              ))}
           </div>
         </div>
         <div className="flex flex-col items-center w-full mb-12">
