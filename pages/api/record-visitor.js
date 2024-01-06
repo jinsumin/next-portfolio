@@ -21,12 +21,18 @@ export default async function handler(req, res) {
       },
       properties: {
         VisitedTime: {
-          visitedTime: visitedTime,
+          rich_text: [
+            {
+              text: {
+                content: visitedTime,
+              },
+            },
+          ],
         },
       },
     });
-    res.status(201).json({ msg: "Sucess!!!" });
+    res.status(201).json({ msg: "방문시간 성공적으로 기록!!!" });
   } catch (error) {
-    res.status(500).json({ msg: "there was an error" });
+    res.status(500).json({ msg: "방문시간 기록 실패!!!" });
   }
 }
