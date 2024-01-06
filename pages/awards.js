@@ -41,14 +41,12 @@ const Awards = () => {
               <p>
                 <Link
                   href={newsURL}
-                >
-                  <a
-                    className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {newsTitle}
-                  </a>
+                  className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
+                  target="_blank"
+                  rel="noopener noreferrer">
+
+                  {newsTitle}
+
                 </Link>
               </p>
               <p className="mt-3 text-indigo-500 inline-flex items-center">
@@ -70,14 +68,12 @@ const Awards = () => {
               <p>
                 <Link
                   href={paperURL}
-                >
-                  <a
-                    className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {paperTitle}
-                  </a>
+                  className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
+                  target="_blank"
+                  rel="noopener noreferrer">
+
+                  {paperTitle}
+
                 </Link>
               </p>
               <p className="mt-3 text-indigo-500 inline-flex items-center">
@@ -106,14 +102,12 @@ const Awards = () => {
               <p>
                 <Link
                   href={magazineURL}
-                >
-                  <a
-                    className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {magazineTitle}
-                  </a>
+                  className="mt-3 text-indigo-500 inline-flex items-center dark:text-cyan-400"
+                  target="_blank"
+                  rel="noopener noreferrer">
+
+                  {magazineTitle}
+
                 </Link>
               </p>
               <p className="mt-3 text-indigo-500 inline-flex items-center">
