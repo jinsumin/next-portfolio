@@ -8,8 +8,30 @@ import Skills from "./skills";
 import Contacts from "./contacts";
 import { TOKEN, DATABASE_ID } from "../config";
 import Awards from "./awards";
+import { useEffect } from "react";
 
 export default function Home({ projects }) {
+  const recordVisitor = async () => {
+    try {
+      const res = await fetch("https://dev.soomin.world/api/record-visitor", {
+        method: "POST",
+        body: JSON.stringify({ visitedTime: new Date() }),
+      });
+
+      if (res.status === 201) {
+        console.log("방문시간 기록 완료");
+      } else {
+        console.log("방문시간 기록 실패");
+      }
+    } catch (error) {
+      console.error(error.message);
+    }
+  };
+
+  useEffect(() => {
+    recordVisitor();
+  }, []);
+
   return (
     <Layout>
       <Head>
