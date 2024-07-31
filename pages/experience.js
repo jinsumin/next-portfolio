@@ -4,6 +4,7 @@ import image02 from "/public/idea.png";
 import image03 from "/public/intern.png";
 import image04 from "/public/developer.png";
 import image05 from "/public/rising.png";
+import image06 from "/public/fintech-removebg-preview.png";
 
 export default function Experience() {
   return (
@@ -117,6 +118,30 @@ export default function Experience() {
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                   하나금융티아이 금융IT 개발자 교육과정 1200시간 수료
+                </h2>
+              </div>
+            </div>
+          </div>
+          {/* 6. 금융투자협회 핀테크아카데미 */}
+          <div className="flex relative pt-10 pb-10 sm:items-center md:w-2/3 mx-auto">
+            <div className="invisible lg:visible xl:visible 2xl:visible">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-cyan-500 text-white relative z-10 title-font font-medium text-sm">
+                6
+              </div>
+            </div>
+            <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+              <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-cyan-500 rounded-full inline-flex items-center justify-center">
+                <Image src={image06} alt="school" width={55} height={55}/>
+              </div>
+              <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+                  2024 핀테크 아카데미 10기 (진행중)
+                  <p className="pt-1 text-base">- 파이썬을 활용한 금융빅데이터 분석</p>
+                  <p className="text-base">- 블록체인 기술과 응용 서비스</p>
+                  <p className="text-base">- 마이데이터 활용</p>
                 </h2>
               </div>
             </div>
