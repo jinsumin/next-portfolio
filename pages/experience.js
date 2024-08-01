@@ -3,7 +3,7 @@ import image01 from "/public/graduate.png";
 import image02 from "/public/idea.png";
 import image03 from "/public/intern.png";
 import image04 from "/public/developer.png";
-import image05 from "/public/rising.png";
+import image05 from "/public/hanati.svg";
 import image06 from "/public/sangsangin.png";
 import image07 from "/public/fintech-removebg-preview.png";
 
