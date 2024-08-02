@@ -166,6 +166,9 @@ export default function Experience() {
                   <p className="pt-1 text-base">- 파이썬을 활용한 금융빅데이터 분석</p>
                   <p className="text-base">- 블록체인 기술과 응용 서비스</p>
                   <p className="text-base">- 마이데이터 활용</p>
+                  <p className="text-base">- 퀀트투자 전략</p>
+                  <p className="text-base">- 기업가치평가</p>
+                  <p className="text-base">- 로보어드바이저</p>
                 </h2>
               </div>
             </div>
