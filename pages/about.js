@@ -19,7 +19,7 @@ export default function About() {
               코드를 작성해야 한다고 생각하며 이를 위해 계속 고민하고 있습니다.
             </p>
           </div>
-          <div className="flex flex-wrap -m-4 text-center">
+          <div className="flex flex-wrap justify-center -m-4 text-center">
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <Link
                 href="https://github.com/jinsumin"
@@ -81,7 +81,7 @@ export default function About() {
               </Link>
             </div>
 
-            <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+            {/* <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <Link
                 href="https://www.youtube.com/channel/UCEu1FY-1dmOMGOrx03EwSTQ"
                 target="_blank"
@@ -106,7 +106,7 @@ export default function About() {
                 </div>
 
               </Link>
-            </div>
+            </div> */}
 
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <Link
