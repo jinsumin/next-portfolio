@@ -121,7 +121,7 @@ export default function Contacts() {
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <p className="leading-normal">dev.soomin@kakao.com</p>
-                <p className="leading-normal my-5">010 4754 7257</p>
+                {/* <p className="leading-normal my-5">010 4754 7257</p> */}
                 <span className="flex flex-row place-content-center place-items-center">
                   <a className="text-gray-500" href="https://open.kakao.com/o/sJeggkpe" target="_blank" rel="noreferrer">
                     <div className="grid grid-rows-1 place-items-center place-content-center">

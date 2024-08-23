@@ -33,7 +33,8 @@ export default function Experience() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  인하대학교 정보통신공학 전공 4년 학사 졸업
+                  인하대학교 학사 졸업
+                  <p className="pt-1 text-base">정보통신공학과 전공</p>
                 </h2>
                 <p className="leading-relaxed"></p>
               </div>
@@ -55,7 +56,8 @@ export default function Experience() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  스마트시민랩 창업공모전 모바일 앱 개발 10개월
+                  스마트시민랩 창업공모전 커뮤니티 활동
+                  <p className="pt-1 text-base">ReactNative 모바일 앱 개발 10개월</p>
                 </h2>
               </div>
             </div>
@@ -77,6 +79,7 @@ export default function Experience() {
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                   서울시청 재무과 인턴 웹 개발 3개월
+                  <p className="pt-1 text-base">리액트 기반 화면 개발 및 API 연동 업무</p>
                 </h2>
               </div>
             </div>
@@ -97,7 +100,8 @@ export default function Experience() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  시리즈 D 개발자 과정 60시간 수료
+                  시리즈 D 개발자 과정
+                  <p className="pt-1 text-base">Node 기반 API 서버 구축 교육 60시간 수료</p>
                 </h2>
               </div>
             </div>
@@ -118,7 +122,9 @@ export default function Experience() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  하나금융티아이 금융IT 개발자 교육과정 1200시간 수료
+                  하나금융티아이 금융IT 개발자 교육
+                  <p className="pt-1 text-base">채용연계형 금융IT 개발자 교육과정 1200시간 수료</p>
+                  <p className="text-base">금융SW 웹 서비스 기술 교육</p>
                 </h2>
               </div>
             </div>
@@ -140,8 +146,9 @@ export default function Experience() {
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                   상상인증권 (재직중)
-                  <p className="pt-1 text-base">IT개발팀 / 2023. 01. 16 ~ 2024. 01. 15 / MTS 개발자 </p>
-                  <p className="text-base">CX기획팀 / 2024. 01. 16 ~ present / 프론트엔드 개발자 </p>
+                  <p className="pt-1 text-base">2023. 01. 16 ~ 2024. 01. 15 / IT개발팀 MTS 개발자 </p>
+                  <p className="text-base">2024. 01. 16 ~ 2024. 09. 01 / CX기획팀 프론트엔드 개발자 </p>
+                  <p className="text-base">2024. 09. 01 ~ present / IT개발팀 MTS 개발자 </p>
                 </h2>
               </div>
             </div>
