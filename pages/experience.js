@@ -169,7 +169,7 @@ export default function Experience() {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  2024 핀테크 아카데미 10기 (진행중)
+                  2024 핀테크 아카데미 10기 수료
                   <p className="pt-1 text-base">- 파이썬을 활용한 금융빅데이터 분석</p>
                   <p className="text-base">- 블록체인 기술과 응용 서비스</p>
                   <p className="text-base">- 마이데이터 활용</p>
